@@ -1,7 +1,7 @@
 {
   "name": "humming",
   "version": "0.1.0",
-  "homepage": " https://sangho-ju.github.io/hum/",
+  "homepage": "https://sangho-ju.github.io/hum/",
   "private": true,
   "dependencies": {
     "@fortawesome/free-regular-svg-icons": "^6.7.2",
@@ -21,7 +21,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "npm run build && npx gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
